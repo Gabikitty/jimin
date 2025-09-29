@@ -15,18 +15,18 @@
 
   <style>
     body {
-      background: #101820; /* fundo escuro para contraste */
+      background: #ffffff; /* fundo branco */
       font-family: 'Segoe UI', Arial, sans-serif;
-      color: #f2f2f2;
+      color: #333;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(135deg, #006d5b, #f4a6c0); /* verde lésbico + rosa bebê */
+      background: linear-gradient(135deg, #4CAF50, #f4a6c0); /* verde claro + rosa bebê */
       color: #fff;
       padding: 3rem 1rem;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
       border-bottom-left-radius: 30px;
       border-bottom-right-radius: 30px;
     }
@@ -40,19 +40,19 @@
 
     header .subtitle {
       font-size: 1.3rem;
-      opacity: 0.9;
+      opacity: 0.95;
     }
 
     h1 {
-      color: #006d5b; /* verde lésbico */
+      color: #4CAF50; /* verde claro */
       font-weight: 700;
       margin-bottom: 2rem;
       text-align: center;
     }
 
     .card {
-      background: #1b1b2f;
-      border: none;
+      background: #ffffff; /* cards brancos */
+      border: 1px solid #ddd;
       border-radius: 15px;
       padding: 1.5rem;
       transition: all 0.3s ease;
@@ -68,7 +68,7 @@
       font-weight: 700;
       margin-bottom: 1rem;
       font-size: 1.3rem;
-      border-left: 6px solid #006d5b; /* verde lésbico */
+      border-left: 6px solid #4CAF50; /* verde claro */
       padding-left: 10px;
       position: relative;
     }
@@ -78,13 +78,14 @@
       position: absolute;
       left: 0;
       top: 130%;
-      background: #1b1b2f;
-      color: #f4a6c0;
+      background: #fff;
+      color: #4CAF50;
       padding: 8px 12px;
       border-radius: 6px;
       font-size: 0.9rem;
       white-space: nowrap;
-      box-shadow: 0 2px 8px rgba(244, 166, 192, 0.5);
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(76, 175, 80, 0.4);
       z-index: 10;
     }
 
@@ -98,19 +99,19 @@
     }
 
     .btn-info {
-      background-color: #006d5b; /* verde */
+      background-color: #4CAF50; /* verde claro */
       color: #fff;
     }
 
     .btn-info:hover {
-      background-color: #009f82;
+      background-color: #66bb6a;
       transform: translateY(-3px);
-      box-shadow: 0 4px 10px rgba(0, 159, 130, 0.5);
+      box-shadow: 0 4px 10px rgba(76, 175, 80, 0.5);
     }
 
     .btn-warning {
       background-color: #f4a6c0; /* rosa bebê */
-      color: #1b1b2f;
+      color: #333;
     }
 
     .btn-warning:hover {
@@ -120,14 +121,12 @@
     }
 
     footer {
-      background-color: #101820;
-      color: #f4a6c0; /* rosa bebê */
+      background-color: #ffffff;
+      color: #4CAF50; /* verde claro */
       font-weight: 500;
       padding: 1.5rem 0;
       text-align: center;
-      border-top-left-radius: 30px;
-      border-top-right-radius: 30px;
-      box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+      border-top: 2px solid #4CAF50;
     }
   </style>
 </head>
