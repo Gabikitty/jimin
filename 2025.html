@@ -15,14 +15,14 @@
 
   <style>
     body {
-      background: #0d1b2a; /* azul escuro */
+      background: #101820; /* fundo escuro para contraste */
       font-family: 'Segoe UI', Arial, sans-serif;
-      color: #e0e0e0;
+      color: #f2f2f2;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(135deg, #1b4332, #4a148c);
+      background: linear-gradient(135deg, #006d5b, #f4a6c0); /* verde lésbico + rosa bebê */
       color: #fff;
       padding: 3rem 1rem;
       text-align: center;
@@ -40,11 +40,11 @@
 
     header .subtitle {
       font-size: 1.3rem;
-      opacity: 0.85;
+      opacity: 0.9;
     }
 
     h1 {
-      color: #38b000;
+      color: #006d5b; /* verde lésbico */
       font-weight: 700;
       margin-bottom: 2rem;
       text-align: center;
@@ -60,15 +60,15 @@
 
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 20px rgba(56, 176, 0, 0.3);
+      box-shadow: 0 8px 20px rgba(244, 166, 192, 0.4); /* rosa bebê */
     }
 
     .card-title {
-      color: #38b000;
+      color: #f4a6c0; /* rosa bebê */
       font-weight: 700;
       margin-bottom: 1rem;
       font-size: 1.3rem;
-      border-left: 6px solid #38b000;
+      border-left: 6px solid #006d5b; /* verde lésbico */
       padding-left: 10px;
       position: relative;
     }
@@ -79,12 +79,12 @@
       left: 0;
       top: 130%;
       background: #1b1b2f;
-      color: #38b000;
+      color: #f4a6c0;
       padding: 8px 12px;
       border-radius: 6px;
       font-size: 0.9rem;
       white-space: nowrap;
-      box-shadow: 0 2px 8px rgba(56, 176, 0, 0.5);
+      box-shadow: 0 2px 8px rgba(244, 166, 192, 0.5);
       z-index: 10;
     }
 
@@ -98,30 +98,30 @@
     }
 
     .btn-info {
-      background-color: #4a148c;
-      color: #e0e0e0;
+      background-color: #006d5b; /* verde */
+      color: #fff;
     }
 
     .btn-info:hover {
-      background-color: #6a1b9a;
+      background-color: #009f82;
       transform: translateY(-3px);
-      box-shadow: 0 4px 10px rgba(106, 27, 154, 0.5);
+      box-shadow: 0 4px 10px rgba(0, 159, 130, 0.5);
     }
 
     .btn-warning {
-      background-color: #1b4332;
-      color: #e0e0e0;
+      background-color: #f4a6c0; /* rosa bebê */
+      color: #1b1b2f;
     }
 
     .btn-warning:hover {
-      background-color: #38b000;
+      background-color: #ffbdd4;
       transform: translateY(-3px);
-      box-shadow: 0 4px 10px rgba(56, 176, 0, 0.5);
+      box-shadow: 0 4px 10px rgba(244, 166, 192, 0.6);
     }
 
     footer {
-      background-color: #0d1b2a;
-      color: #38b000;
+      background-color: #101820;
+      color: #f4a6c0; /* rosa bebê */
       font-weight: 500;
       padding: 1.5rem 0;
       text-align: center;
@@ -150,47 +150,46 @@
     <div class="row g-4">
 
       <!-- HTML Local -->
-<div class="col-md-6 col-lg-4">
-  <div class="card">
-    <h3 class="card-title" data-description="Arquivos HTML desenvolvidos durante as aulas do Terceiro Trimestre.">HTML Local</h3>
-    
-    <div class="d-flex flex-column gap-2 overflow-auto" style="max-height: 500px;">
-      <a href="sequencias.html" class="btn btn-info">Sequências</a>
-      <a href="index2.html" class="btn btn-info">IndexCarro</a>
-      <a href="home.html" class="btn btn-info">Home</a>
-      <a href="aluguel.html" class="btn btn-info">Aluguel</a>
-      <a href="testarcodigo.html" class="btn btn-info">Testar Código</a>
-      <a href="testarcodigo2.html" class="btn btn-info">Testar Código 2</a>
-      <a href="testarcodigo3.html" class="btn btn-info">Testar Código 3</a>
-      <a href="testarcodigo4.html" class="btn btn-info">Testar Código 4</a>
-      <a href="script erro.html" class="btn btn-info">Script Erro</a>
-      <a href="Oi.html" class="btn btn-info">Oi</a>
-      <a href="mouseClick.html" class="btn btn-info">Mouse Click</a>
-      <a href="mmc.html" class="btn btn-info">MMC</a>
-      <a href="index.html" class="btn btn-info">Index</a>
-      <a href="Front1.html" class="btn btn-info">Front 1</a>
-      <a href="Front2.html" class="btn btn-info">Front 2</a>
-      <a href="Front3.html" class="btn btn-info">Front 3</a>
-      <a href="exemplo1.html" class="btn btn-info">Exemplo 1</a>
-      <a href="exemplo2.html" class="btn btn-info">Exemplo 2</a>
-      <a href="exemplo3.html" class="btn btn-info">Exemplo 3</a>
-      <a href="despesas.html" class="btn btn-info">Despesas</a>
-      <a href="calcular.html" class="btn btn-info">Calcular</a>
-      <a href="calculadora.html" class="btn btn-info">Calculadora</a>
-      <a href="aula18-02.html" class="btn btn-info">Aula 18-02</a>
-      <a href="aula 18-02 2.html" class="btn btn-info">Aula 18-02 (2)</a>
-      <a href="aula 06-03 subtrair.html" class="btn btn-info">Subtrair</a>
-      <a href="aula 06-03 somar.html" class="btn btn-info">Somar</a>
-      <a href="aula 06-03 multiplicar.html" class="btn btn-info">Multiplicar</a>
-      <a href="aula 06-03 dividir.html" class="btn btn-info">Dividir</a>
-      <a href="analiseVelo.html" class="btn btn-info">Análise Velocidade</a>
-      <a href="AbraCadabra.html" class="btn btn-info">AbraCadabra</a>
-    </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <h3 class="card-title"
+            data-description="Arquivos HTML desenvolvidos durante as aulas do Terceiro Trimestre.">HTML Local</h3>
 
-  </div>
-</div>
+          <div class="d-flex flex-column gap-2 overflow-auto" style="max-height: 500px;">
+            <a href="sequencias.html" class="btn btn-info">Sequências</a>
+            <a href="index2.html" class="btn btn-info">IndexCarro</a>
+            <a href="home.html" class="btn btn-info">Home</a>
+            <a href="aluguel.html" class="btn btn-info">Aluguel</a>
+            <a href="testarcodigo.html" class="btn btn-info">Testar Código</a>
+            <a href="testarcodigo2.html" class="btn btn-info">Testar Código 2</a>
+            <a href="testarcodigo3.html" class="btn btn-info">Testar Código 3</a>
+            <a href="testarcodigo4.html" class="btn btn-info">Testar Código 4</a>
+            <a href="script erro.html" class="btn btn-info">Script Erro</a>
+            <a href="Oi.html" class="btn btn-info">Oi</a>
+            <a href="mouseClick.html" class="btn btn-info">Mouse Click</a>
+            <a href="mmc.html" class="btn btn-info">MMC</a>
+            <a href="index.html" class="btn btn-info">Index</a>
+            <a href="Front1.html" class="btn btn-info">Front 1</a>
+            <a href="Front2.html" class="btn btn-info">Front 2</a>
+            <a href="Front3.html" class="btn btn-info">Front 3</a>
+            <a href="exemplo1.html" class="btn btn-info">Exemplo 1</a>
+            <a href="exemplo2.html" class="btn btn-info">Exemplo 2</a>
+            <a href="exemplo3.html" class="btn btn-info">Exemplo 3</a>
+            <a href="despesas.html" class="btn btn-info">Despesas</a>
+            <a href="calcular.html" class="btn btn-info">Calcular</a>
+            <a href="calculadora.html" class="btn btn-info">Calculadora</a>
+            <a href="aula18-02.html" class="btn btn-info">Aula 18-02</a>
+            <a href="aula 18-02 2.html" class="btn btn-info">Aula 18-02 (2)</a>
+            <a href="aula 06-03 subtrair.html" class="btn btn-info">Subtrair</a>
+            <a href="aula 06-03 somar.html" class="btn btn-info">Somar</a>
+            <a href="aula 06-03 multiplicar.html" class="btn btn-info">Multiplicar</a>
+            <a href="aula 06-03 dividir.html" class="btn btn-info">Dividir</a>
+            <a href="analiseVelo.html" class="btn btn-info">Análise Velocidade</a>
+            <a href="AbraCadabra.html" class="btn btn-info">AbraCadabra</a>
+          </div>
 
-
+        </div>
+      </div>
 
       <!-- Jogos -->
       <div class="col-md-6 col-lg-4">
@@ -214,7 +213,8 @@
             <a href="https://snack.expo.dev/@jptabm14/hello" target="_blank" class="btn btn-warning">Hello</a>
             <a href="https://snack.expo.dev/@jptabm14/controle-financeiro" target="_blank"
               class="btn btn-warning">Controle Financeiro</a>
-<a href="https://snack.expo.dev/@jptabm14/conversor-de-km" target="_blank" class="btn btn-warning">Conversor de KM</a>
+            <a href="https://snack.expo.dev/@jptabm14/conversor-de-km" target="_blank"
+              class="btn btn-warning">Conversor de KM</a>
           </div>
         </div>
       </div>
@@ -223,15 +223,16 @@
       <div class="col-md-6 col-lg-4">
         <div class="card">
           <h3 class="card-title" data-description="Link para pasta com arquivos e projetos em Python.">Python</h3>
-          <a href="https://drive.google.com/drive/folders/1F_uihheS0GlsmxtJYCJKE4nGbWmc7tQk?usp=sharing"
-            target="_blank" class="btn btn-warning">Arquivos</a>
+          <a href="https://drive.google.com/drive/folders/1F_uihheS0GlsmxtJYCJKE4nGbWmc7tQk?usp=sharing" target="_blank"
+            class="btn btn-warning">Arquivos</a>
         </div>
       </div>
 
       <!-- Outros -->
       <div class="col-md-6 col-lg-4">
         <div class="card">
-          <h3 class="card-title" data-description="Link para pasta com todos os arquivos feitos ao longo do ano.">Outros Arquivos</h3>
+          <h3 class="card-title" data-description="Link para pasta com todos os arquivos feitos ao longo do ano.">Outros
+            Arquivos</h3>
           <a href="https://drive.google.com/drive/folders/1kKG4zeC2k-wVn6kG1WDoT6VUJ87iwS9A" target="_blank"
             class="btn btn-warning">Arquivos</a>
         </div>
